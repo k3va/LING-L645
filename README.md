@@ -10,7 +10,7 @@ Nahuatl, as a language distinct from Spanish.
 1. Introduction
 
 Language data is vital to building NLP solutions
-for the worldís languages. For low-resource languages like Nahuatl, building and maintaining a
+for the world‚Äôs languages. For low-resource languages like Nahuatl, building and maintaining a
 data corpus is a challenging task, owing to the
 lack of proper quality and quantity of training
 data. Moreover, the combined effect of over 500
@@ -28,9 +28,9 @@ supervised learning on our dataset.
 The speech data from Radio Tsinaka, a bilingual radio station in Mexico. The language classifier was trained on annotated audio segments
 from their broadcasts in both Spanish and Nahuatl. The data has been collected and annotated
 with the joint effort of Robert Pugh, Dr. Francis Tyers, Jacob Schmitt and a local in Mexico. The audio segments have been extracted
-from hour-long bilingual radio broadcasts, annotated with segment labels from one of the following: ëespí(=Spanish), ëazzí (= Highland Puebla
-Nahuatl), ëambosí (=Both Spanish and Nahuatl),
-ënaí(=Neither Spanish nor Nahuatl). The data was
+from hour-long bilingual radio broadcasts, annotated with segment labels from one of the following: ‚Äòesp‚Äô(=Spanish), ‚Äòazz‚Äô (= Highland Puebla
+Nahuatl), ‚Äòambos‚Äô (=Both Spanish and Nahuatl),
+‚Äòna‚Äô(=Neither Spanish nor Nahuatl). The data was
 split in an 80:10:10 ratio for the training, validation, and test sets. to keep together data with
 similar background noises, and hence, mitigate,
 as much as possible, the challenge of learning
@@ -48,7 +48,7 @@ Spanish.
 
 #About the Project
 
-This folder provides a working, documented setup for speaker identification of Nahuatl and Spanish speakers. The model is based on SpeechBrainís speakerID model, which was trained on a few hours of data. The data we use is annotated data collected with the joint efforts of Robert Pugh, Dr. Francis Tyers. OpenRIR has also been used for augmentation and noise reduction.
+This folder provides a working, documented setup for speaker identification of Nahuatl and Spanish speakers. The model is based on SpeechBrain‚Äôs speakerID model, which was trained on a few hours of data. The data we use is annotated data collected with the joint efforts of Robert Pugh, Dr. Francis Tyers. OpenRIR has also been used for augmentation and noise reduction.
 
 1. There are 5 files here:
 
@@ -90,9 +90,9 @@ Using Inference for predictions on new data using the SpeechBrain EncoderClassif
 
 # Citations
 
-* @misc{speechbrain,
+@misc{speechbrain,
   title={{SpeechBrain}: A General-Purpose Speech Toolkit},
-  author={Mirco Ravanelli and Titouan Parcollet and Peter Plantinga and Aku Rouhe and Samuele Cornell and Loren Lugosch and Cem Subakan and Nauman Dawalatabad and Abdelwahab Heba and Jianyuan Zhong and Ju-Chieh Chou and Sung-Lin Yeh and Szu-Wei Fu and Chien-Feng Liao and Elena Rastorgueva and FranÁois Grondin and William Aris and Hwidong Na and Yan Gao and Renato De Mori and Yoshua Bengio},
+  author={Mirco Ravanelli and Titouan Parcollet and Peter Plantinga and Aku Rouhe and Samuele Cornell and Loren Lugosch and Cem Subakan and Nauman Dawalatabad and Abdelwahab Heba and Jianyuan Zhong and Ju-Chieh Chou and Sung-Lin Yeh and Szu-Wei Fu and Chien-Feng Liao and Elena Rastorgueva and Fran√ßois Grondin and William Aris and Hwidong Na and Yan Gao and Renato De Mori and Yoshua Bengio},
   year={2021},
   eprint={2106.04624},
   archivePrefix={arXiv},
@@ -114,7 +114,7 @@ Ashish Mittal, Prasanta Kumar Ghosh,
 Preethi Jyothi, Kalika Bali, Vivek Seshadri,
 Sunayana Sitaram, Samarth Bharadwaj, Jai
 Nanavati, Raoul Nanavati, Karthik Sankaranarayanan: 2104.00235v1.pdf (arxiv.org)
-(ìISCA Archiveî)
+(‚ÄúISCA Archive‚Äù)
 3. Meta-Transfer Learning for Code-Switched
 Speech Recognition Genta Indra Winata,
 Samuel Cahyawijaya, Zhaojiang Lin,
@@ -122,15 +122,15 @@ Zihan Liu, Peng Xu, Pascale Fung:
 2004.14228v1.pdf (arxiv.org)
 4. Large vocabulary speech recognition for languages of Africa: multilingual modeling and
 self-supervised learning, Sandy Ritchie, YouChi Cheng, Mingqing Chen, Rajiv Mathews, Daan van Esch, Bo Li, Khe Chai Si:
-2208.03067.pdf (arxiv.org) (ìLarge vocabulary speech recognition for languages of
-Africa ...î)
+2208.03067.pdf (arxiv.org) (‚ÄúLarge vocabulary speech recognition for languages of
+Africa ...‚Äù)
 5. Rethinking Data Augmentation for LowResource Neural Machine Translation: A
 Multi-Task Learning Approach, V ??ctor
 M. S ?anchez-Cartagena, Miquel Espl`aGomis Juan Antonio P ?erez-Ortiz, Felipe
 S ?anchezMart ??nez: Rethinking Data Augmentation for Low-Resource Neural Machine
-Translation: A Multi-Task Learning Approach (aclanthology.org) (ìRethinking Data
+Translation: A Multi-Task Learning Approach (aclanthology.org) (‚ÄúRethinking Data
 Augmentation for Low-Resource Neural
-Machine ...î)
+Machine ...‚Äù)
 6. Speech Brain, Dr. Mirco Ravanelli and
 Dr. Titouan Parcollet, multiple contributors:
 SpeechBrain: A PyTorch Speech Toolkit
