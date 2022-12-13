@@ -1,8 +1,8 @@
 # Nahuatl and Spanish Speaker Identification
 
-This folder provides a working, documented setup for speaker identification of Nahuatl and Spanish speakers. The model is based on SpeechBrain’s speakerID model, which was trained on a few hours of data. The data we use is annotated data collected with the joint efforts of Robert Pugh, Dr. Francis Tyers and + OpenRIR (for noise reduction).
+This folder provides a working, documented setup for speaker identification of Nahuatl and Spanish speakers. The model is based on SpeechBrainâ€™s speakerID model, which was trained on a few hours of data. The data we use is annotated data collected with the joint efforts of Robert Pugh, Dr. Francis Tyers and + OpenRIR (for noise reduction).
 
-1. There are 5 files here:
+1. There are 7 files here:
 
 * `azz_esp.ipynb`: the main code file, outlining the speaker identification process
 * `train.py`: the training code file, outlines the entire training process.
@@ -44,7 +44,7 @@ Citations
 
 * @misc{speechbrain,
   title={{SpeechBrain}: A General-Purpose Speech Toolkit},
-  author={Mirco Ravanelli and Titouan Parcollet and Peter Plantinga and Aku Rouhe and Samuele Cornell and Loren Lugosch and Cem Subakan and Nauman Dawalatabad and Abdelwahab Heba and Jianyuan Zhong and Ju-Chieh Chou and Sung-Lin Yeh and Szu-Wei Fu and Chien-Feng Liao and Elena Rastorgueva and François Grondin and William Aris and Hwidong Na and Yan Gao and Renato De Mori and Yoshua Bengio},
+  author={Mirco Ravanelli and Titouan Parcollet and Peter Plantinga and Aku Rouhe and Samuele Cornell and Loren Lugosch and Cem Subakan and Nauman Dawalatabad and Abdelwahab Heba and Jianyuan Zhong and Ju-Chieh Chou and Sung-Lin Yeh and Szu-Wei Fu and Chien-Feng Liao and Elena Rastorgueva and FranÃ§ois Grondin and William Aris and Hwidong Na and Yan Gao and Renato De Mori and Yoshua Bengio},
   year={2021},
   eprint={2106.04624},
   archivePrefix={arXiv},
