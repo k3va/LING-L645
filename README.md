@@ -136,3 +136,4 @@ Dr. Titouan Parcollet, multiple contributors:
 SpeechBrain: A PyTorch Speech Toolkit
 7. Annotated bilingual data, Robert Pugh:
 Lguyogiro (Robert Pugh) (github.com)
+8. Room Impulse Response and Noise Database: http://www.openslr.org/28
