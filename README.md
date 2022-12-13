@@ -58,7 +58,7 @@ This folder provides a working, documented setup for speaker identification of N
 * `custom_model.py`: A file containing the definition of a PyTorch module.
 * `my_tools.py`: Prepares the data manifests using the annotated data
 * `sample_tsinaka.tar.gz`: Zip file for (sample) annotated data
-* `Research.zip`: Zip file containing folder to upload to google drive
+* `Research.zip`: Zip file containing folder to upload to google drive: https://drive.google.com/drive/folders/1QOYHIjBSLzfpPrMeigvgRuKAafHzSCaz?usp=sharing
 
 To run the code, we need to open the main code file `azz_esp_train.ipynb` in google colab and proceed accordingly. A few prerequisites for running:
 
